@@ -1,0 +1,48 @@
+{
+  "name": "africastalking",
+  "version": "0.5.4",
+  "description": "Official AfricasTalking node.js API wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha ./test",
+    "test-windows": "nyc node_modules/mocha/bin/_mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AfricasTalkingLtd/africastalking-node.js"
+  },
+  "keywords": [
+    "africastalking",
+    "sms",
+    "ussd",
+    "voice",
+    "m-pesa",
+    "payments"
+  ],
+  "author": "Africa's Talking",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AfricasTalkingLtd/africastalking-node.js/issues"
+  },
+  "homepage": "https://github.com/AfricasTalkingLtd/africastalking-node.js#readme",
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "grpc": "^1.24.3",
+    "lodash": "^4.17.15",
+    "querystring": "^0.2.0",
+    "unirest": "^0.6.0",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mocha": "^6.2.3",
+    "nyc": "^14.1.1",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}
